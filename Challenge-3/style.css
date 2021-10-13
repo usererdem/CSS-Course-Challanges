@@ -49,3 +49,30 @@ h1 {
   box-shadow:rgba(228, 10, 10, 0.24) 0px 3px 150px;
 
 }
+
+.row {
+  display: flex;
+  gap: 30px
+}
+
+.col {
+  width: 100%;
+  text-align: center;
+}
+
+.h2-pink {
+  color: #87629A;
+}
+
+.wrapper {
+  background-color: #136C72;
+}
+.dark {
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+  padding: 40px 0;
+}
