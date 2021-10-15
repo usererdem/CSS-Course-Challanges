@@ -47,17 +47,25 @@ h1 {
 .btn:hover {
   transform: translateY(-0.2rem);
   box-shadow:rgba(228, 10, 10, 0.24) 0px 3px 150px;
-
 }
+
 
 .row {
   display: flex;
-  gap: 30px
 }
 
 .col {
   width: 100%;
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+}
+
+.three-col {
   text-align: center;
+  padding: 3em 0;
 }
 
 .three-col__title {
@@ -65,14 +73,13 @@ h1 {
 }
 
 .two-col {
+  text-align: center;
   background-color: #136C72;
-}
-.white-text {
+  padding: 3em 0;
   color: #fff;
 }
 
-.container {
-  display: flex;
-  gap: 30px;
-  padding: 40px 0;
-}
+
+
+
+
