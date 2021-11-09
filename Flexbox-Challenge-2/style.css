@@ -36,6 +36,11 @@ header {
   padding: 1.2rem 0;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav__list {
   margin: 0;
   padding: 0;
@@ -44,8 +49,8 @@ header {
   align-items: center;
 }
 
-.nav__item {
-  margin-right: 1rem;
+.nav__item + .nav__item {
+  margin-left: 1rem;
 }
 
 .nav__link {
